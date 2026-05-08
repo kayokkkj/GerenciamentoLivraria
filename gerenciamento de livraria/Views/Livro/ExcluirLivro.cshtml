@@ -1,0 +1,57 @@
+﻿@model LivroModel
+
+<div class="container py-5">
+
+    <div class="mx-auto" style="max-width: 600px;">
+
+        <div class="bg-white shadow-lg rounded-4 p-5">
+
+            <h2 class="text-center mb-4 text-danger">Excluir Livro</h2>
+
+            <p class="text-center text-muted mb-4">
+                Tem certeza que deseja excluir este livro?
+            </p>
+
+          
+            <div class="mb-3">
+                <strong>Título:</strong> @Model.Nome
+            </div>
+
+            <div class="mb-3">
+                <strong>Autor:</strong> @Model.Autor
+            </div>
+
+            <div class="mb-3">
+                <strong>Categoria:</strong> @Model.Categoria
+            </div>
+
+            <div class="mb-3">
+                <strong>Preço:</strong> R$ @Model.Preco.ToString("N2")
+            </div>
+
+            <div class="mb-4">
+                <strong>Estoque:</strong> @Model.Estoque
+            </div>
+
+            <form asp-action="ExcluirLivroConfirmado" method="post">
+
+            
+                <input type="hidden" asp-for="Id" />
+
+                <div class="d-flex gap-2">
+
+                    <button type="submit" class="btn btn-danger w-100">
+                        Confirmar Exclusão
+                    </button>
+
+                    <a asp-action="Index" class="btn btn-outline-secondary w-100">
+                        Cancelar
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
