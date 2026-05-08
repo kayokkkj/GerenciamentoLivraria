@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "..\\.gitignore",
               "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\.gitignore",
               "RelativeToolTip": "..\\.gitignore",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-05-08T20:29:35.571Z",
               "EditorCaption": ""
@@ -118,8 +118,7 @@
               "RelativeToolTip": "gerenciamento de livraria\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-07T18:15:18.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T18:15:18.548Z"
             },
             {
               "$type": "Document",
