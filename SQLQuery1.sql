@@ -8,4 +8,3 @@ SELECT TOP (1000) [Id]
   FROM [LivrariaDb].[dbo].[Livro]
 
 
-  select * from Livro

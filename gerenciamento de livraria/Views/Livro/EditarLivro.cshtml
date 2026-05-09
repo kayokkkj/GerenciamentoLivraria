@@ -46,12 +46,14 @@
                 <div>
                     <label asp-for="Preco"></label>
                     <input asp-for="Preco" class="form-control" placeholder="R$" />
+                    <span asp-validation-for="Preco" class="text-danger"></span>
 
                 </div>
 
                 <div>
                     <label asp-for="Estoque"></label>
                     <input asp-for="Estoque" class="form-control" placeholder="Estoque disponível" />
+                    <span asp-validation-for="Estoque" class="text-danger"></span>
 
                 </div>
 

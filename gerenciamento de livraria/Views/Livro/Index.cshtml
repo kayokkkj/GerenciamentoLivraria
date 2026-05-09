@@ -1,7 +1,7 @@
 ﻿@model List<LivroModel>
 
 <div class="container mt-5">
-    <!-- Cabeçalho com alinhamento flexível -->
+  
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
             <h2 class="fw-bold text-dark mb-1">Livros Cadastrados</h2>
@@ -38,7 +38,7 @@
                                 <td class="text-center">
                                     <span class="badge bg-light text-dark border">@livro.Categoria</span>
                                 </td>
-                                <td class="fw-bold">@livro.Preco.ToString("C")</td>
+                                <td class="fw-bold">@livro.Preco.ToString()</td>
                                 <td class="text-center">
                                     @if (livro.Estoque < 5)
                                     {
@@ -85,7 +85,7 @@
     body {
         background-color: #f3f4f6;
     }
-    /* Fundo levemente cinza para destacar o card branco */
+   
 
     .btn-dark-custom {
         background: #1f2937;
@@ -103,7 +103,7 @@
             color: white;
         }
 
-    /* Ajuste fino na tabela */
+   
     .table thead th {
         border-bottom: 1px solid #e5e7eb;
     }

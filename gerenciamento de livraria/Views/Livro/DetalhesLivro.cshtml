@@ -11,9 +11,9 @@
 
         <div class="card-body p-4">
             <div class="row">
-                <!-- Coluna da Capa -->
+               
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="d-flex align-items-center justify-content-center text-muted"
+                   <div class="d-flex align-items-center justify-content-center text-muted"
                          style="height: 100%; min-height: 350px; background-color: #f9fafb; border: 2px dashed #e5e7eb; border-radius: 8px;">
                         <div class="text-center">
                             <i class="bi bi-book text-secondary" style="font-size: 3rem;"></i>
@@ -36,7 +36,7 @@
                         <div class="col-6 col-md-4">
                             <div class="p-3 border-0 rounded" style="background-color: #f9fafb;">
                                 <h6 class="text-muted small fw-bold mb-1">Preço</h6>
-                                <span class="h5 fw-bold text-dark">@Model.Preco.ToString("C")</span>
+                                <span class="h5 fw-bold text-dark">@Model.Preco.ToString()</span>
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <!-- Rodapé (Botões minimalistas) -->
+       
         <div class="card-footer bg-white p-3 border-top-0 d-flex gap-2">
             <a asp-action="Index" class="btn btn-outline-secondary px-4" style="border-radius: 8px;">
                 Voltar
@@ -71,7 +71,7 @@
 </div>
 
 <style>
-    /* Importando a mesma lógica de estilo da Index */
+    
     body {
         background-color: #f3f4f6;
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
