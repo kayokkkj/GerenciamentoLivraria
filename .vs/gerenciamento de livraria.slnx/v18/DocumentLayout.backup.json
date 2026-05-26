@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\",
+  "WorkspaceRootPath": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\views\\livro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\views\\livro\\excluirlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\repository\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\views\\livro\\excluirlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\views\\livro\\excluirlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|c:\\users\\kayo\\desktop\\projetos\\github projeto\\gerenciamento de livraria\\gerenciamento de livraria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D54CDC00-C552-6937-E282-CF4B5645B9DB}|gerenciamento de livraria\\gerenciamento de livraria.csproj|solutionrelative:gerenciamento de livraria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,80 +47,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ExcluirLivro.cshtml",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
-              "RelativeDocumentMoniker": "gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
-              "RelativeToolTip": "gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "gerenciamento de livraria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "gerenciamento de livraria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-16T16:31:11.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:31:40.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "ExcluirLivro.cshtml",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
+              "RelativeDocumentMoniker": "gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
+              "RelativeToolTip": "gerenciamento de livraria\\Views\\Livro\\ExcluirLivro.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T16:31:11.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
               "RelativeDocumentMoniker": "gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
               "RelativeToolTip": "gerenciamento de livraria\\Views\\Livro\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-16T16:23:39.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Controllers\\LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Controllers\\LivroController.cs",
               "RelativeDocumentMoniker": "gerenciamento de livraria\\Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Controllers\\LivroController.cs",
               "RelativeToolTip": "gerenciamento de livraria\\Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwF4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBcAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T21:34:55.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ILivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
               "RelativeDocumentMoniker": "gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
               "RelativeToolTip": "gerenciamento de livraria\\Interfaces\\ILivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T15:11:48.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Repository\\LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Repository\\LivroRepository.cs",
               "RelativeDocumentMoniker": "gerenciamento de livraria\\Repository\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Repository\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Repository\\LivroRepository.cs",
               "RelativeToolTip": "gerenciamento de livraria\\Repository\\LivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wCcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T15:11:23.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Program.cs",
               "RelativeDocumentMoniker": "gerenciamento de livraria\\Program.cs",
-              "ToolTip": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Program.cs",
+              "ToolTip": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\Program.cs",
               "RelativeToolTip": "gerenciamento de livraria\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T18:15:17.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T18:15:17.505Z"
             }
           ]
         }

@@ -6,7 +6,7 @@ using gerenciamento_de_livraria.Models;
 
 public interface ILivroRepository
 {
-    Task<List<LivroModel>> BuscarLivro();
+    Task<List<LivroModel>> BuscarLivro(string buscar = null, string buscarAutor = null, decimal? precoMinimo = null, decimal? precoMaximo = null);
 
     Task CriarLivro(LivroModel livro);
 

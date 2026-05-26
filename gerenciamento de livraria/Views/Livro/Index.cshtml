@@ -1,7 +1,8 @@
 ﻿@model List<LivroModel>
 
+
 <div class="container mt-5">
-  
+
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
             <h2 class="fw-bold text-dark mb-1">Livros Cadastrados</h2>
@@ -10,6 +11,44 @@
         <a asp-action="CriarLivro" class="btn btn-dark-custom shadow-sm">
             <i class="bi bi-plus-lg"></i> Novo Livro
         </a>
+    </div>
+
+    <div class="card border-0 shadow-sm p-4 mb-4" style="background-color: white; border-radius: 12px;">
+        <div class="row g-4 align-items-end">
+
+            <div class="col-12 col-md-5">
+                <form asp-action="Index" method="get" class="d-flex gap-2 align-items-end">
+                    <div class="flex-grow-1">
+                        <label class="form-label text-muted small fw-bold text-uppercase mb-2">Buscar por titulo ou autor</label>
+                        <input type="text" name="buscar" value="@ViewData["buscarlivro"]" class="form-control custom-input" placeholder="Título ou autor..." />
+                    </div>
+                    <button type="submit" class="btn btn-dark-custom py-2 px-3">
+                        <i class="bi bi-search"></i> Buscar
+                    </button>
+                </form>
+            </div>
+
+           
+
+            <div class="col-12 col-md-6">
+                <form asp-action="Index" method="get" class="d-flex gap-2 align-items-end justify-content-md-end">
+                    <div class="flex-grow-1" style="max-width: 140px;">
+                        <label class="form-label text-muted small fw-bold text-uppercase mb-2">Preço Mín.</label>
+                        <input type="number" name="precominimo" value="@ViewData["precoMinimoP"]" step="0.01" class="form-control custom-input" placeholder="0,00" />
+                    </div>
+
+                    <div class="flex-grow-1" style="max-width: 140px;">
+                        <label class="form-label text-muted small fw-bold text-uppercase mb-2">Preço Máx.</label>
+                        <input type="number" name="precomaximo" value="@ViewData["precoMaximoP"]" step="0.01" class="form-control custom-input" placeholder="99,00" />
+                    </div>
+
+                    <button type="submit" class="btn btn-dark-custom py-2 px-3">
+                        <i class="bi bi-funnel"></i> Filtrar
+                    </button>
+                </form>
+            </div>
+
+        </div>
     </div>
 
     @if (Model != null && Model.Any())

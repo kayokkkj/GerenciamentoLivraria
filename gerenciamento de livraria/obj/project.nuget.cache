@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sao0iaY5ivE=",
+  "dgSpecHash": "flmc7DMAbI8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
+  "projectFilePath": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kayo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kayo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

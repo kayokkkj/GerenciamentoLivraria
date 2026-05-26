@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.25.0": {
@@ -4023,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
+      "projectUniqueName": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
       "projectName": "gerenciamento de livraria",
-      "projectPath": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
+      "projectPath": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\gerenciamento de livraria.csproj",
       "packagesPath": "C:\\Users\\kayo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kayo\\Desktop\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\obj\\",
+      "outputPath": "C:\\Users\\kayo\\Desktop\\Projetos\\gitHub projeto\\gerenciamento de livraria\\gerenciamento de livraria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4047,6 +4047,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -4061,10 +4062,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
@@ -4107,7 +4109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

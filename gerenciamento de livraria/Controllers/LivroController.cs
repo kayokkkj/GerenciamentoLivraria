@@ -21,9 +21,14 @@ namespace gerenciamento_de_livraria.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar, string buscarAutor, decimal? precoMinimo, decimal? precoMaximo)
         {
-            var livros = await _repositorio.BuscarLivro();
+            ViewData["buscarlivro"] = buscar;
+            ViewData["precoMinimo"] = precoMinimo;
+            ViewData["precoMaximo"] = precoMaximo;
+
+           
+            var livros = await _repositorio.BuscarLivro(buscar,buscarAutor, precoMinimo, precoMaximo);
 
             return View(livros);
         }

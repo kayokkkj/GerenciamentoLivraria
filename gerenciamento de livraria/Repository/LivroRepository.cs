@@ -3,6 +3,7 @@ using gerenciamento_de_livraria.Data;
 using gerenciamento_de_livraria.Interfaces;
 using gerenciamento_de_livraria.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics.Internal;
 
 
 namespace gerenciamento_de_livraria.Repository
@@ -16,36 +17,91 @@ namespace gerenciamento_de_livraria.Repository
             _context = context;
         }
 
-        public async Task<List<LivroModel>> BuscarLivro()
+        public async Task<List<LivroModel>> BuscarLivro(string buscar = null, string buscarAutor = null, decimal? precoMinimo = null, decimal? precoMaximo = null)
         {
-            var livros = await _context.Livro.ToListAsync();
+            try
+            {
+                var query = _context.Livro.AsQueryable();
 
-            return livros;
+                if (!string.IsNullOrEmpty(buscar)) {
+
+                    query = query.Where(p => p.Nome.ToLower().Contains(buscar.ToLower()) || 
+                    p.Autor.ToLower().Contains(buscar.ToLower()));
+ 
+                }
+
+                if (precoMinimo.HasValue)
+                {
+                    query = query.Where(m => m.Preco >= precoMinimo.Value);
+                }
+
+                if(precoMaximo.HasValue)
+                {
+                    query = query.Where(p => p.Preco <= precoMaximo.Value);
+                }
+                 return await query.ToListAsync();
+            }
+
+            catch (Exception ex) 
+            {
+                throw new Exception(ex.Message);
+            } 
         }
 
         public async Task CriarLivro(LivroModel livro)
         {
-            await _context.Livro.AddAsync(livro);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.Livro.AddAsync(livro);
+                await _context.SaveChangesAsync();
+            }
 
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public async Task <LivroModel> BuscarLivroId(int id)
         {
-           return await _context.Livro.FirstOrDefaultAsync(x => x.Id == id);
+            try
+            {
+                return await _context.Livro.FirstOrDefaultAsync(x => x.Id == id);
+            }
 
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public async Task EditarLivro(LivroModel livro)
         {
-             _context.Livro.Update(livro);
-             await _context.SaveChangesAsync();
+            try
+            {
+                _context.Livro.Update(livro);
+                await _context.SaveChangesAsync();
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }  
         }
 
         public async Task ExcluirLivro(LivroModel livro)
         {
-             _context.Livro.Remove(livro);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Livro.Remove(livro);
+                await _context.SaveChangesAsync();
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+           
 
         }
 
